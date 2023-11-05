@@ -14,7 +14,7 @@ struct MultiTabView: View {
                 .tabItem{
                     Label("Web page",systemImage: "eyes.inverse")
                 }
-            ChatGPTView(vm: ViewModel(api: ChatGPTAPI(apiKey: "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")))
+            ChatGPTView(vm: ViewModel(api: ChatGPTAPI(apiKey: getOpenAIAPIKey())))
                 .tabItem{
                     Label("Chat",systemImage: "list.number")
                 }
@@ -23,6 +23,10 @@ struct MultiTabView: View {
                     Label("Tab 3",systemImage: "keyboard")
                 }
         }
+    }
+    
+    func getOpenAIAPIKey() -> String {
+        return "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"
     }
 }
 

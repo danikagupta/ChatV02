@@ -17,6 +17,7 @@
 		AA74786C2AF710EF00B2D252 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74786B2AF710EF00B2D252 /* DotLoadingView.swift */; };
 		AA74786E2AF7127300B2D252 /* LLMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74786D2AF7127300B2D252 /* LLMClient.swift */; };
 		AA7478702AF712C100B2D252 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74786F2AF712C100B2D252 /* ChatGPTAPI.swift */; };
+		AA7478722AF722B100B2D252 /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7478712AF722B100B2D252 /* Secret.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AA74786B2AF710EF00B2D252 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
 		AA74786D2AF7127300B2D252 /* LLMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMClient.swift; sourceTree = "<group>"; };
 		AA74786F2AF712C100B2D252 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		AA7478712AF722B100B2D252 /* Secret.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				AA7478572AF7009600B2D252 /* ChatV02App.swift */,
 				AA7478592AF7009600B2D252 /* ContentView.swift */,
 				AA7478652AF701FD00B2D252 /* ChatGPTView.swift */,
+				AA7478712AF722B100B2D252 /* Secret.plist */,
 				AA7478672AF70F8A00B2D252 /* ViewModel.swift */,
 				AA7478692AF70FF800B2D252 /* MessageRowView.swift */,
 				AA74786B2AF710EF00B2D252 /* DotLoadingView.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7478722AF722B100B2D252 /* Secret.plist in Resources */,
 				AA74785F2AF7009800B2D252 /* Preview Assets.xcassets in Resources */,
 				AA74785C2AF7009800B2D252 /* Assets.xcassets in Resources */,
 			);

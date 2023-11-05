@@ -33,11 +33,9 @@ struct ChatGPTView: View {
                         isTextFieldFocused = false
                     }
                 }
-                #if os(iOS) || os(macOS)
                 Divider()
                 bottomView(image: "profile", proxy: proxy)
                 Spacer()
-                #endif
             }
             .onChange(of: vm.messages.last?.responseText) { _ in  scrollToBottom(proxy: proxy)
             }
