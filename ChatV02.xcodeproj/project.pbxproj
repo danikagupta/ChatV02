@@ -11,6 +11,12 @@
 		AA74785A2AF7009600B2D252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478592AF7009600B2D252 /* ContentView.swift */; };
 		AA74785C2AF7009800B2D252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA74785B2AF7009800B2D252 /* Assets.xcassets */; };
 		AA74785F2AF7009800B2D252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA74785E2AF7009800B2D252 /* Preview Assets.xcassets */; };
+		AA7478662AF701FD00B2D252 /* ChatGPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478652AF701FD00B2D252 /* ChatGPTView.swift */; };
+		AA7478682AF70F8A00B2D252 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478672AF70F8A00B2D252 /* ViewModel.swift */; };
+		AA74786A2AF70FF800B2D252 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478692AF70FF800B2D252 /* MessageRowView.swift */; };
+		AA74786C2AF710EF00B2D252 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74786B2AF710EF00B2D252 /* DotLoadingView.swift */; };
+		AA74786E2AF7127300B2D252 /* LLMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74786D2AF7127300B2D252 /* LLMClient.swift */; };
+		AA7478702AF712C100B2D252 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74786F2AF712C100B2D252 /* ChatGPTAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		AA7478592AF7009600B2D252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA74785B2AF7009800B2D252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA74785E2AF7009800B2D252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA7478652AF701FD00B2D252 /* ChatGPTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTView.swift; sourceTree = "<group>"; };
+		AA7478672AF70F8A00B2D252 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AA7478692AF70FF800B2D252 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		AA74786B2AF710EF00B2D252 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		AA74786D2AF7127300B2D252 /* LLMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMClient.swift; sourceTree = "<group>"; };
+		AA74786F2AF712C100B2D252 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				AA7478572AF7009600B2D252 /* ChatV02App.swift */,
 				AA7478592AF7009600B2D252 /* ContentView.swift */,
+				AA7478652AF701FD00B2D252 /* ChatGPTView.swift */,
+				AA7478672AF70F8A00B2D252 /* ViewModel.swift */,
+				AA7478692AF70FF800B2D252 /* MessageRowView.swift */,
+				AA74786B2AF710EF00B2D252 /* DotLoadingView.swift */,
+				AA74786D2AF7127300B2D252 /* LLMClient.swift */,
+				AA74786F2AF712C100B2D252 /* ChatGPTAPI.swift */,
 				AA74785B2AF7009800B2D252 /* Assets.xcassets */,
 				AA74785D2AF7009800B2D252 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7478702AF712C100B2D252 /* ChatGPTAPI.swift in Sources */,
 				AA74785A2AF7009600B2D252 /* ContentView.swift in Sources */,
+				AA74786E2AF7127300B2D252 /* LLMClient.swift in Sources */,
+				AA74786A2AF70FF800B2D252 /* MessageRowView.swift in Sources */,
 				AA7478582AF7009600B2D252 /* ChatV02App.swift in Sources */,
+				AA74786C2AF710EF00B2D252 /* DotLoadingView.swift in Sources */,
+				AA7478682AF70F8A00B2D252 /* ViewModel.swift in Sources */,
+				AA7478662AF701FD00B2D252 /* ChatGPTView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

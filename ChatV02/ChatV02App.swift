@@ -11,7 +11,7 @@ import SwiftUI
 struct ChatV02App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MultiTabView()
         }
     }
 }
