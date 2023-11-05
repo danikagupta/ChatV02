@@ -26,7 +26,25 @@ struct MultiTabView: View {
     }
     
     func getOpenAIAPIKey() -> String {
-        return "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"
+        let key = "OPENAI_API_KEY"
+        // Get the path of Secrets.plist file
+             guard let path = Bundle.main.path(forResource: "Secret", ofType: "plist") else {
+                 fatalError("Couldn't find file 'Secret.plist'.")
+             }
+             
+             // Load the contents of the file into a data dictionary
+             let url = URL(fileURLWithPath: path)
+             guard let data = try? Data(contentsOf: url),
+                   let plist = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil) as? [String: Any] else {
+                 fatalError("Couldn't load 'Secrets.plist'.")
+             }
+             
+             // Access the value by key
+             guard let value = plist[key] as? String else {
+                 fatalError("Couldn't find key '\(key)' in 'Secrets.plist'.")
+             }
+             
+             return value
     }
 }
 
